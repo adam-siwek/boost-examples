@@ -12,7 +12,7 @@ private class ConvertLeadTest {
         Test.startTest();
         qualifiedTasks[0].Status = 'Completed';
         update qualifiedTasks;
-        BoostApi.TESTS.deliverAsyncQueueEvents();
+        forvendi.BoostApi.TESTS.deliverAsyncQueueEvents();
         Test.stopTest();
 
         forvendi.BoostAPI.TESTS.assertErrorLogs();

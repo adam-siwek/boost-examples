@@ -37,9 +37,6 @@ public with sharing class TextFieldCleanupStep extends forvendi.Step {
 
     private String process(String value, TextFieldCleanupOperation op) {
         switch on op.operation {
-            when 'trunc' {
-                return BoostUtils.trunc(value, op.numberParam1 == null ? 255 : op.numberParam1.intValue());
-            }
             when 'trim' {
                 return value.trim();
             }
