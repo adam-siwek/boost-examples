@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>forvendi__ClassName__c</field>
-        <value xsi:type="xsd:string">forvendi.UppercaseFieldStep</value>
+        <value xsi:type="xsd:string">UppercaseFieldStep</value>
     </values>
     <values>
         <field>forvendi__ConfigurationScope__c</field>

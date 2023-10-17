@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>forvendi__ClassName__c</field>
-        <value xsi:type="xsd:string">forvendi.ImportLeadsFromRandomDataApi</value>
+        <value xsi:type="xsd:string">ImportLeadsFromRandomDataApi</value>
     </values>
     <values>
         <field>forvendi__ConfigurationScope__c</field>
@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>forvendi__Description__c</field>
-        <value xsi:type="xsd:string">ImportLeadsFromRandomDataApi</value>
+        <value xsi:type="xsd:string">Import Leads from the Random data API</value>
     </values>
     <values>
         <field>forvendi__ExecutionInterval__c</field>
@@ -24,7 +24,7 @@
     </values>
     <values>
         <field>forvendi__IsActive__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>forvendi__JobConfiguration__c</field>

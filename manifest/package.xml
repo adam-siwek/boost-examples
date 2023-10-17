@@ -7,6 +7,7 @@
         <members>TextFieldCleanupStep</members>
         <members>UppercaseFieldStep</members>
         <members>UppercaseFieldStepTest</members>
+        <members>BoostPlugin</members>
         <name>ApexClass</name>
     </types>
     <types>
