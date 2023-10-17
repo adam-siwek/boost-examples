@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Case_AU_Flow_EscalateCases</label>
+    <protected>false</protected>
+    <values>
+        <field>AsyncCustomStrategy__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>AsyncStrategy__c</field>
+        <value xsi:type="xsd:string">MultiQueueable</value>
+    </values>
+    <values>
+        <field>AsyncThreshold__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Async__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ClassName__c</field>
+        <value xsi:type="xsd:string">forvendi.StepFlowStep</value>
+    </values>
+    <values>
+        <field>ConfigurationScope__c</field>
+        <value xsi:type="xsd:string">Own</value>
+    </values>
+    <values>
+        <field>DataLoader1__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DataLoader2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DelayedQueueObject__c</field>
+        <value xsi:type="xsd:string">forvendi__B_DelayedAsyncJob__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">EscalateCases</value>
+    </values>
+    <values>
+        <field>EntryConditions__c</field>
+        <value xsi:type="xsd:string">{&quot;criteria&quot;:[{&quot;field&quot;:&quot;subject&quot;,&quot;fieldValueType&quot;:&quot;record&quot;,&quot;operator&quot;:&quot;=&quot;,&quot;value&quot;:&quot;Escalate&quot;,&quot;valueType&quot;:&quot;value&quot;}],&quot;criteriaLogicType&quot;:&quot;and&quot;}</value>
+    </values>
+    <values>
+        <field>FeatureAvailability__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Parameters__c</field>
+        <value xsi:type="xsd:string">EscalateCases</value>
+    </values>
+    <values>
+        <field>QueueEventObject__c</field>
+        <value xsi:type="xsd:string">forvendi__B_AsyncJobEvent__e</value>
+    </values>
+    <values>
+        <field>QueueObject__c</field>
+        <value xsi:type="xsd:string">forvendi__B_AsyncJob__c</value>
+    </values>
+    <values>
+        <field>Queued__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>SkipProcessAfterAddingToQueue__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>StepGroupConfig__c</field>
+        <value xsi:type="xsd:string">Case_AU</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Flow</value>
+    </values>
+</CustomMetadata>

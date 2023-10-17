@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "demo-org",
+      "default": true
+    }
+  ],
+  "name": "force-boost-examples",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0"
+}
