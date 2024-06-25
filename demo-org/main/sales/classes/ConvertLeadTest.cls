@@ -12,11 +12,11 @@ private class ConvertLeadTest {
         Test.startTest();
         qualifiedTasks[0].Status = 'Completed';
         update qualifiedTasks;
-        forvendi.BoostApi.TESTS.deliverAsyncQueueEvents();
+        forvendi.BreezzApi.TESTS.deliverAsyncQueueEvents();
         Test.stopTest();
 
-        forvendi.BoostAPI.TESTS.assertErrorLogs();
-        testLead = (Lead)forvendi.BoostApi.TESTS.loadRecordById(testLead.Id);
+        forvendi.BreezzApi.TESTS.assertErrorLogs();
+        testLead = (Lead)forvendi.BreezzApi.TESTS.loadRecordById(testLead.Id);
         Assert.areEqual(true, testLead.IsConverted);
     }
 }

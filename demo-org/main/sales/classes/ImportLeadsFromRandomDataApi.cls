@@ -46,7 +46,7 @@ public with sharing class ImportLeadsFromRandomDataApi extends forvendi.Schedule
                 ));
             }
         } else {
-            forvendi.BoostApi.LOGGER.logError('ImportLeadsFromRandomDataApi', 'execute', response.getStatus());
+            forvendi.BreezzApi.LOGGER.logError('ImportLeadsFromRandomDataApi', 'execute', response.getStatus());
         }
     }
 }

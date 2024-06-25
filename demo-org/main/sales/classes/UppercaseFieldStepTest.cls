@@ -7,7 +7,7 @@ private class UppercaseFieldStepTest {
         Account[] oldAccounts = new Account[] {new Account(Name = 'ACCOUNT'), new Account(Name = 'ACCOUNT')};
 
         Test.startTest();
-        forvendi.BoostApi.STEPS.build()
+        forvendi.BoostApi.STEPS()
                 .addStep(new UppercaseFieldStep())
                 .execute(newAccounts, oldAccounts);
         Test.stopTest();

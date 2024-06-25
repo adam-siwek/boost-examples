@@ -4,10 +4,10 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="boost-tso" />
+          <option name="connectionName" value="breezz-uat" />
           <option name="connectionType" value="OAUTH" />
           <option name="defaultModuleName" value="force-boost-examples" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/boost_tso/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/breezz_uat/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>

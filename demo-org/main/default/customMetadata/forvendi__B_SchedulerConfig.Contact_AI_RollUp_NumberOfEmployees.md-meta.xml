@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Custom_ImportLeadsFromRandomDataApi</label>
+    <label>Contact_AI_RollUp_NumberOfEmployees</label>
     <protected>false</protected>
     <values>
         <field>forvendi__ClassName__c</field>
-        <value xsi:type="xsd:string">ImportLeadsFromRandomDataApi</value>
+        <value xsi:type="xsd:string">forvendi.StepRollUpSummaryStep</value>
     </values>
     <values>
         <field>forvendi__ConfigurationScope__c</field>
@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>forvendi__Description__c</field>
-        <value xsi:type="xsd:string">Import Leads from the Random data API</value>
+        <value xsi:type="xsd:string">Number Of Employees calculation</value>
     </values>
     <values>
         <field>forvendi__ExecutionInterval__c</field>
@@ -28,11 +28,11 @@
     </values>
     <values>
         <field>forvendi__JobConfiguration__c</field>
-        <value xsi:type="xsd:string">2</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>forvendi__RecordConfiguration__c</field>
-        <value xsi:type="xsd:string">{&quot;processingContextObjectName&quot;:&quot;Lead&quot;,&quot;recordFieldMapping&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;fieldType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;&quot;,&quot;initLoading&quot;:false}]}</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>forvendi__RecordLevelSecurity__c</field>
@@ -40,10 +40,10 @@
     </values>
     <values>
         <field>forvendi__RelatedObject__c</field>
-        <value xsi:type="xsd:string">Lead</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>forvendi__Type__c</field>
-        <value xsi:type="xsd:string">Custom</value>
+        <value xsi:type="xsd:string">AsyncJobQueueProcessor</value>
     </values>
 </CustomMetadata>
