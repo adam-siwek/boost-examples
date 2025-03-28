@@ -7,12 +7,12 @@ private class UppercaseFieldStepTest {
         Account[] oldAccounts = new Account[] {new Account(Name = 'ACCOUNT'), new Account(Name = 'ACCOUNT')};
 
         Test.startTest();
-        forvendi.BoostApi.STEPS()
+        forvendi.BreezzApi.STEPS.build()
                 .addStep(new UppercaseFieldStep())
                 .execute(newAccounts, oldAccounts);
         Test.stopTest();
 
-        forvendi.BoostAPI.TESTS.assertErrorLogs();
+        forvendi.BreezzApi.TESTS.assertErrorLogs();
         Assert.areEqual('Test 1', newAccounts[0].Name);
         Assert.areEqual('Test 2', newAccounts[1].Name);
     }
@@ -22,12 +22,12 @@ private class UppercaseFieldStepTest {
         Account[] newAccounts = new Account[] {new Account(Name = 'test 1')};
         Test.startTest();
 
-        forvendi.BoostApi.STEPS.build()
+        forvendi.BreezzApi.STEPS.build()
                 .addStep(new UppercaseFieldStep())
                 .execute(newAccounts);
         Test.stopTest();
 
-        forvendi.BoostAPI.TESTS.assertErrorLogs();
+        forvendi.BreezzApi.TESTS.assertErrorLogs();
         Assert.areEqual('Test 1', newAccounts[0].Name);
     }
 }

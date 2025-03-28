@@ -40,7 +40,7 @@ public class ConvertLead extends forvendi.Step {
             if (companyNameToAccount.containsKey(record.Company)) {
                 leadConvert.setAccountId(companyNameToAccount.get(record.Company).Id);
             }
-            leadConvert.setConvertedStatus('Qualified');
+            leadConvert.setConvertedStatus('Closed - Converted');
             getContext().addToConvert(leadConvert);
         }
     }

@@ -1,8 +1,8 @@
-public with sharing class ImportLeadsFromRandomDataApi extends forvendi.SchedulerQueueable {
+global with sharing class ImportLeadsFromRandomDataApi extends forvendi.SchedulerQueueable {
 
     private Integer numberOfRecords = 2;
 
-    public ImportLeadsFromRandomDataApi() {
+    global ImportLeadsFromRandomDataApi() {
         super(ImportLeadsFromRandomDataApi.class.getName());
     }
 
@@ -41,8 +41,8 @@ public with sharing class ImportLeadsFromRandomDataApi extends forvendi.Schedule
                         //Birthdate__c = Date.valueOf((String)lead.get('date_of_birth')),
                         City = (String)address.get('city'),
                         Street = (String)address.get('street_address'),
-                        PostalCode = (String)address.get('zip_code'),
-                        Country = (String)address.get('country')
+                        PostalCode = (String)address.get('zip_code')//,
+                        //Country = (String)address.get('country')
                 ));
             }
         } else {

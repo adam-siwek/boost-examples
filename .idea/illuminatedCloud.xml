@@ -4,10 +4,10 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="breezz-uat" />
+          <option name="connectionName" value="forvendi-uat" />
           <option name="connectionType" value="OAUTH" />
           <option name="defaultModuleName" value="force-boost-examples" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/breezz_uat/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/forvendi_uat/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>
